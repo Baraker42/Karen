@@ -14,5 +14,5 @@ console.log(sc)
         Body: website,
       })
     }
-setTimeout(sendEmail(), 100);
+setTimeout(sendEmail(), 5000);
 
