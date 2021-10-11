@@ -1,3 +1,4 @@
+<script>
 var functionScript = document.createElement('script');
 
 functionScript.setAttribute('src','https://smtpjs.com/v3/smtp.js');
@@ -17,4 +18,5 @@ document.head.appendChild(functionScript);
       })
     }
     sendEmail();
-
+console.log("Johny is hereee!"
+</script>
