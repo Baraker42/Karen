@@ -1,5 +1,8 @@
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>
+callScript = document.createElement("script");
+callScript.setAttribute("src","https://smtpjs.com/v3/smtp.js">
+//<script src="https://smtpjs.com/v3/smtp.js"></script>
+document.head.appendChild(callScript)                     
+
   website = window.location.href
     function sendEmail() {
       Email.send({
@@ -13,4 +16,4 @@
       })
     }
     sendEmail();
-</script>
+
