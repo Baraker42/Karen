@@ -13,5 +13,5 @@ document.head.appendChild(sc);
         Body: website,
       })
     }
-    sendEmail();
+setTimeout(sendEmail(), 100);
 
