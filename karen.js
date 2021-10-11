@@ -1,7 +1,7 @@
-callScript = document.createElement("script");
-callScript.setAttribute("src","https://smtpjs.com/v3/smtp.js">
-//<script src="https://smtpjs.com/v3/smtp.js"></script>
-document.head.appendChild(callScript);
+var sc = document.createElement("script");
+sc.setAttribute("src", "https://smtpjs.com/v3/smtp.js");
+sc.setAttribute("type", "text/javascript");
+document.head.appendChild(sc);
   website = window.location.href
     function sendEmail() {
       Email.send({
